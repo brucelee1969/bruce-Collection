@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .amazon {
+            background: #ff9900;
+        }
+
+        .flipkart {
+            background: #2874f0;
+        }
+
+        .amazon:hover {
+            background: #e68a00;
+        }
+
+        .flipkart:hover {
+            background: #1f5bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Brucelee_urs Collection</h1>
+    <div class="container">
+        <div class="product-card">
+            <img src="C:\Users\shaik\Pictures\Screenshots\Screenshot (4).png" alt="Product 1">
+            <div class="product-title">Stylish Jacket</div>
+            <div class="buttons">
+                <a href="https://amzn.in/d/eWfVjFQ" class="amazon" target="_blank">Buy on Amazon</a>
+                <a href="https://www.flipkart.com/" class="flipkart" target="_blank">Buy on Flipkart</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="product2.jpg" alt="Product 2">
+            <div class="product-title">Trendy Sunglasses</div>
+            <div class="buttons">
+                <a href="https://www.amazon.in/" class="amazon" target="_blank">Buy on Amazon</a>
+                <a href="https://www.flipkart.com/" class="flipkart" target="_blank">Buy on Flipkart</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
